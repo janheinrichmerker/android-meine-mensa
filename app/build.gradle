@@ -14,10 +14,10 @@ android {
         versionCode version_major * 10000 + version_minor * 1000 + version_patch * 100 + version_build
         versionName "$version_major.$version_minor" + (version_patch == 0 ? "" : ".$version_patch")
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
 
-        lintOptions {
-            abortOnError false
-        }
+    lintOptions {
+        abortOnError false
     }
 
     buildTypes {
