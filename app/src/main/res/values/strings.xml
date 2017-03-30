@@ -46,6 +46,7 @@
     <string name="title_main_intro_date">Datum wählen</string>
     <string name="description_main_intro_date">Wähle ein anderes Datum aus, wenn du schon heute die Speisekarte von morgen sehen willst!</string>
     <string name="title_main_intro_more">… und vieles mehr</string>
+    <!-- TODO add NFC feature promotion -->
     <string name="description_main_intro_more">•&#160;&#160;Deine bevorzugte Mensa auf der Karte auswählen\n•&#160;&#160;Route zu Deiner bevorzugten Mensa\n•&#160;&#160;Deine Preiskategorie auswählen</string>
     <string name="title_detail_intro_directions">Hunger bekommen?</string>
     <string name="description_detail_intro_directions">Jetzt zur Mensa navigieren!</string>

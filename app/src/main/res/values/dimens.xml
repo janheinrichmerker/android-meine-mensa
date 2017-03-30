@@ -10,8 +10,8 @@
     <dimen name="scrim_height">48dp</dimen>
     <dimen name="indicator_size">24dp</dimen>
 
-    <string name="aspect_ratio_detail">3:4</string>
-    <string name="aspect_ratio_grid">9:16</string>
+    <string name="aspect_ratio_detail">H,4:3</string>
+    <string name="aspect_ratio_grid">H,16:9</string>
 
     <dimen name="splash_bottom">16dp</dimen>
     <dimen name="banner_bottom">48dp</dimen>

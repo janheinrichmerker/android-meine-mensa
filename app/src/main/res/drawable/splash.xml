@@ -2,6 +2,8 @@
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android"
     android:opacity="opaque">
 
+    <!-- TODO Hide for Android SDK <21 -->
+
     <item android:drawable="@color/background_splash" />
 
     <item
