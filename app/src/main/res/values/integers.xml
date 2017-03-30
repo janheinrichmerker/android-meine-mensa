@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="grid_spans">1</integer>
+
+    <integer name="widget_update_period">3600000</integer><!-- one hour in millis -->
+</resources>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background_widget"
+    android:elevation="@dimen/elevation_toolbar"
+    tools:ignore="UnusedAttribute">
+
+    <LinearLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/widget_toolbar_height"
+        android:paddingLeft="@dimen/guideline_half"
+        android:paddingRight="@dimen/guideline_half"
+        android:minHeight="@dimen/widget_toolbar_height"
+        android:background="@color/color_primary"
+        android:elevation="@dimen/elevation_toolbar"
+        android:gravity="center_vertical"
+        tools:ignore="UnusedAttribute">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginLeft="@dimen/guideline_half"
+            android:layout_marginRight="@dimen/guideline_half"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Title"
+                android:text="@string/title_widget" />
+
+            <TextView
+                android:id="@+id/subtitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
+                android:textColor="@color/text_color_secondary"
+                tools:text="26.09.2016"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/launch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launch"
+            android:adjustViewBounds="true"
+            android:padding="@dimen/guideline_half"
+            android:contentDescription="@string/content_description_widget_refresh"
+            style="@style/Widget.AppCompat.Button.Borderless" />
+
+        <ImageButton
+            android:id="@+id/refresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_refresh"
+            android:adjustViewBounds="true"
+            android:padding="@dimen/guideline_half"
+            android:contentDescription="@string/content_description_widget_refresh"
+            style="@style/Widget.AppCompat.Button.Borderless" />
+
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/grid"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:clipToPadding="false" />
+
+</LinearLayout>

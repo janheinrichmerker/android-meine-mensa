@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Meine Mensa</string>
+    <string name="title_activity_main">Meine Mensa</string>
+    <string name="title_activity_detail">Detailansicht</string>
+    <string name="title_activity_map">Karte</string>
+
+    <string name="menu_item_date">Tag</string>
+    <string name="menu_item_price">Preiskategorie</string>
+    <string name="menu_item_price_students">Studierende</string>
+    <string name="menu_item_price_employees">Mitarbeiter</string>
+    <string name="menu_item_price_guests">Gäste</string>
+    <string name="menu_item_vegetarian_only">Nur vegetarische Gerichte</string>
+    <string name="menu_item_location">Mensa</string>
+    <string name="menu_item_location_harzmensa">Harzmensa</string>
+    <string name="menu_item_location_weinbergmensa">Weinbergmensa</string>
+    <string name="menu_item_location_mensa_koethen">Mensa Köthen</string>
+    <string name="menu_item_location_mensa_bernburg">Mensa Bernburg</string>
+    <string name="menu_item_location_mensa_neuwerk">Mensa Neuwerk</string>
+    <string name="menu_item_location_mensa_tulpe">Mensa Tulpe</string>
+    <string name="menu_item_location_mensa_burg">Mensa Burg</string>
+    <string name="menu_item_location_mensa_dessau">Mensa Dessau</string>
+    <string name="menu_item_location_mensa_franckesche_stiftungen">Mensa Franckesche Stiftungen</string>
+    <string name="menu_item_location_mensa_merseburg">Mensa Merseburg</string>
+    <string name="menu_item_location_heidemensa">Heidemensa</string>
+    <string name="menu_item_location_map">Auf Karte auswählen</string>
+    <string name="menu_item_location_map_long">Mensa auf Karte auswählen</string>
+    <string name="menu_item_directions">Route zur bevorzugten Mensa</string>
+    <string name="menu_item_nearest_location">Nächste Mensa automatisch finden</string>
+
+    <string name="title_activity_main_multiple_locations">%d Mensen</string>
+    <string name="title_empty_view">Keine Speisen</string>
+    <string name="description_empty_view">Wähle eine andere Mensa oder wische nach unten zum Aktualisieren.</string>
+
+    <string name="label_vegetarian">vegetarisch</string>
+    <string name="label_price">%s €</string>
+
+    <string name="label_select_location">%s auswählen?</string>
+    <string name="action_select_location">Auswählen</string>
+    <string name="label_select_location_already_default">%s ist bereits ausgewählt.</string>
+    <string name="action_select_location_already_default">Route</string>
+    <string name="label_select_location_already_default_maps_not_found">Google Maps konnte nicht gefunden werden.</string>
+    <string name="label_nearest_location_permission_rationale">Die Standortberechtigung wird benötigt, um mit dem aktuellen Standort die nächste Mensa zu finden.</string>
+
+    <string name="title_main_intro_location">Mensa wählen</string>
+    <string name="description_main_intro_location">Wähle Deine bevorzugte Mensa aus!\nDie Speisekarte wird automatisch aktualisiert.</string>
+    <string name="title_main_intro_date">Datum wählen</string>
+    <string name="description_main_intro_date">Wähle ein anderes Datum aus, wenn du schon heute die Speisekarte von morgen sehen willst!</string>
+    <string name="title_main_intro_more">… und vieles mehr</string>
+    <string name="description_main_intro_more">•&#160;&#160;Deine bevorzugte Mensa auf der Karte auswählen\n•&#160;&#160;Route zu Deiner bevorzugten Mensa\n•&#160;&#160;Deine Preiskategorie auswählen</string>
+    <string name="title_detail_intro_directions">Hunger bekommen?</string>
+    <string name="description_detail_intro_directions">Jetzt zur Mensa navigieren!</string>
+    <string name="title_map_intro_more_nearest_location">Nächste Mensa finden</string>
+    <string name="description_map_intro_more_nearest_location">Finde die nächstgelegene Mensa anhand Deines aktuellen Standortes!</string>
+
+    <string name="title_dialog_balance">Guthaben: %s €</string>
+    <string name="description_dialog_balance">Letzte Abbuchung: %s €</string>
+    <string name="positive_dialog_balance">OK</string>
+
+    <string name="title_widget_provider">Speiseplan</string>
+    <string name="title_widget">Speiseplan</string>
+    <string name="content_description_widget_launch">Öffnen</string>
+    <string name="content_description_widget_refresh">Aktualisieren</string>
+    <string name="title_widget_empty_view">Keine Speisen</string>
+    <string name="description_widget_empty_view">Wähle eine andere Mensa in der App oder klicke auf Aktualisieren.</string>
+</resources>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="meal"
+            type="com.heinrichreimer.meinemensa.model.Meal" />
+
+        <variable
+            name="priceCategory"
+            type="int" />
+
+        <import
+            type="android.view.View"
+            alias="View" />
+    </data>
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            tools:src="@drawable/splash"
+            android:contentDescription="@{meal.name}"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/scrim"
+            android:scaleType="centerCrop"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent" />
+
+        <ProgressBar
+            android:id="@+id/progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:layout_constraintTop_toTopOf="@+id/image"
+            app:layout_constraintBottom_toBottomOf="@+id/image"
+            app:layout_constraintLeft_toRightOf="@+id/image"
+            app:layout_constraintRight_toLeftOf="@+id/image"
+            android:indeterminate="true" />
+
+        <View
+            android:id="@+id/scrim"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/scrim_height"
+            android:background="@color/scrim"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent" />
+
+        <TextView
+            android:id="@+id/name"
+            tools:text="Schweinegulasch Jäger Art"
+            android:text="@{meal.name}"
+            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+            tools:textColor="@color/text_color_secondary"
+            android:maxLines="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/guideline"
+            android:layout_marginRight="@dimen/guideline"
+            app:layout_constraintTop_toTopOf="@+id/scrim"
+            app:layout_constraintBottom_toBottomOf="@+id/scrim"
+            app:layout_constraintLeft_toLeftOf="@+id/scrim"
+            app:layout_constraintRight_toLeftOf="@+id/vegetarian"
+            android:ellipsize="end"
+            tools:ignore="UnusedAttribute" />
+
+        <ImageView
+            android:id="@+id/vegetarian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_vegetarian"
+            android:contentDescription="@string/label_vegetarian"
+            app:layout_constraintTop_toTopOf="@+id/price"
+            app:layout_constraintBottom_toBottomOf="@+id/price"
+            android:layout_marginLeft="@dimen/guideline"
+            android:layout_marginRight="@dimen/guideline"
+            app:layout_constraintRight_toLeftOf="@+id/price"
+            android:visibility="@{meal.vegetarian ? View.VISIBLE : View.GONE}"
+            tools:visibility="visible" />
+
+        <TextView
+            android:id="@+id/price"
+            tools:text="2,20 €"
+            android:text="@{@string/label_price(meal.price.forCategory(priceCategory))}"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            tools:textColor="@color/text_color_secondary"
+            android:fontFeatureSettings="onum"
+            android:maxLines="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:layout_marginLeft="@dimen/guideline"
+            android:layout_marginRight="@dimen/guideline"
+            app:layout_constraintTop_toTopOf="@+id/scrim"
+            app:layout_constraintBottom_toBottomOf="@+id/scrim"
+            app:layout_constraintRight_toRightOf="@+id/scrim"
+            tools:ignore="UnusedAttribute" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="?selectableItemBackground"
+            app:backgroundTint="@{meal.color}"
+            android:duplicateParentState="true"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintDimensionRatio="@string/aspect_ratio_grid"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent" />
+
+    </android.support.constraint.ConstraintLayout>
+
+</layout>

@@ -1,0 +1,6 @@
+<resources>
+    <string name="aspect_ratio_detail">9:21</string>
+    <string name="aspect_ratio_grid">3:4</string>
+
+    <dimen name="splash_bottom">48dp</dimen>
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/menu_item_location">
+        <menu>
+            <group android:checkableBehavior="all">
+                <item
+                    android:id="@+id/menu_item_location_harzmensa"
+                    android:title="@string/menu_item_location_harzmensa"
+                    android:checkable="true" />
+                <item
+                    android:id="@+id/menu_item_location_weinbergmensa"
+                    android:title="@string/menu_item_location_weinbergmensa"
+                    android:checkable="true" />
+                <item
+                    android:id="@+id/menu_item_location_mensa_koethen"
+                    android:title="@string/menu_item_location_mensa_koethen"
+                    android:checkable="true" />
+                <item
+                    android:id="@+id/menu_item_location_mensa_bernburg"
+                    android:title="@string/menu_item_location_mensa_bernburg"
+                    android:checkable="true" />
+                <item
+                    android:id="@+id/menu_item_location_mensa_neuwerk"
+                    android:title="@string/menu_item_location_mensa_neuwerk"
+                    android:checkable="true" />
+                <item
+                    android:id="@+id/menu_item_location_mensa_tulpe"
+                    android:title="@string/menu_item_location_mensa_tulpe"
+                    android:checkable="true" />
+                <item
+                    android:id="@+id/menu_item_location_mensa_burg"
+                    android:title="@string/menu_item_location_mensa_burg"
+                    android:checkable="true" />
+                <item
+                    android:id="@+id/menu_item_location_mensa_dessau"
+                    android:title="@string/menu_item_location_mensa_dessau"
+                    android:checkable="true" />
+                <item
+                    android:id="@+id/menu_item_location_mensa_franckesche_stiftungen"
+                    android:title="@string/menu_item_location_mensa_franckesche_stiftungen"
+                    android:checkable="true" />
+                <item
+                    android:id="@+id/menu_item_location_mensa_merseburg"
+                    android:title="@string/menu_item_location_mensa_merseburg"
+                    android:checkable="true" />
+                <item
+                    android:id="@+id/menu_item_location_heidemensa"
+                    android:title="@string/menu_item_location_heidemensa"
+                    android:checkable="true" />
+            </group>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/menu_item_location_map"
+        android:title="@string/menu_item_location_map" />
+
+</menu>

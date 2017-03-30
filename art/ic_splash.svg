@@ -1,0 +1,142 @@
+<svg width="192" height="193" viewBox="0 0 192 193" version="2.0" xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:figma="http://www.figma.com/figma/ns">
+    <title>ic_splash.svg</title>
+    <desc>Created using Figma 0.90</desc>
+    <g id="Canvas" transform="translate(0 195)" figma:type="canvas">
+        <mask id="mask0_outline" mask-type="alpha">
+            <path d="M 0 -194.5L 192 -194.5L 192 -2.5L 0 -2.5L 0 -194.5Z" fill="#FFFFFF" />
+        </mask>
+        <g id="ic_splash" style="mix-blend-mode:normal;" mask="url(#mask0_outline)"
+            figma:type="frame">
+            <g id="Background" style="mix-blend-mode:normal;" filter="url(#filter0_dii)"
+                figma:type="frame">
+                <g id="Background" style="mix-blend-mode:normal;" figma:type="ellipse">
+                    <use xlink:href="#path0_fill" transform="translate(8 -187)" fill="#F57C00"
+                        style="mix-blend-mode:normal;" />
+                </g>
+                <g id="Intersect" style="mix-blend-mode:normal;" figma:type="vector-operation">
+                    <use xlink:href="#path1_fill" transform="translate(33.7746 -161.225)"
+                        fill="#FB8C00" style="mix-blend-mode:normal;" />
+                </g>
+                <g id="Mask Group" style="mix-blend-mode:normal;" figma:type="frame">
+                    <mask id="mask1_alpha" mask-type="alpha">
+                        <g id="Background" style="mix-blend-mode:normal;" figma:type="ellipse">
+                            <use xlink:href="#path0_fill" transform="translate(8 -187)"
+                                fill="#F57C00" style="mix-blend-mode:normal;" />
+                        </g>
+                    </mask>
+                    <g id="Group" style="mix-blend-mode:normal;" mask="url(#mask1_alpha)"
+                        figma:type="frame">
+                        <g id="Rectangle" style="mix-blend-mode:normal;"
+                            figma:type="rounded-rectangle">
+                            <use xlink:href="#path2_fill"
+                                transform="matrix(0.707107 -0.707107 0.707107 0.707107 27.4106 -31.8249)"
+                                fill="#BF360C" fill-opacity="0.1" style="mix-blend-mode:normal;" />
+                        </g>
+                        <g id="Rectangle" style="mix-blend-mode:normal;"
+                            figma:type="rounded-rectangle">
+                            <use xlink:href="#path2_fill"
+                                transform="matrix(0.707107 -0.707107 0.707107 0.707107 28.1177 -31.1178)"
+                                fill="#FFFFFF" fill-opacity="0.1" style="mix-blend-mode:normal;" />
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g id="K&#38;F Group" style="mix-blend-mode:normal;" figma:type="frame">
+                <g id="Intersect" style="mix-blend-mode:normal;" figma:type="vector-operation">
+                    <use xlink:href="#path3_fill"
+                        transform="matrix(0.707107 0.707107 -0.707107 0.707107 123.85 -151.76)"
+                        fill="url(#paint5_linear)" fill-opacity="0.2"
+                        style="mix-blend-mode:normal;" />
+                </g>
+                <g id="Group" style="mix-blend-mode:normal;" figma:type="frame">
+                    <g id="Knife &#38; Fork" style="mix-blend-mode:normal;" filter="url(#filter1_d)"
+                        figma:type="vector">
+                        <use xlink:href="#path4_fill"
+                            transform="matrix(0.707107 0.707107 -0.707107 0.707107 91.0503 -184.56)"
+                            fill="#FFFFFF" style="mix-blend-mode:normal;" />
+                        <use xlink:href="#path5_fill"
+                            transform="matrix(0.707107 0.707107 -0.707107 0.707107 91.0503 -184.56)"
+                            fill="#FFFFFF" style="mix-blend-mode:normal;" />
+                    </g>
+                </g>
+            </g>
+            <g id="Ellipse" style="mix-blend-mode:normal;" figma:type="ellipse">
+                <use xlink:href="#path0_fill" transform="translate(8 -187)"
+                    fill="url(#paint8_radial)" fill-opacity="0.2" style="mix-blend-mode:normal;" />
+            </g>
+        </g>
+    </g>
+    <defs>
+        <filter id="filter0_dii" filterUnits="userSpaceOnUse" x="4" y="-188" width="185"
+            height="185" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <desc>type="dropShadow" x="0" y="4" size="4" spread="0" color="0,0,0,0.2"
+                blend="normal"
+            </desc>
+            <feColorMatrix stream="SourceAlpha" type="matrix"
+                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 0" />
+            <feOffset dx="0" dy="4" />
+            <feGaussianBlur stdDeviation="2" />
+            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0" />
+            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow" />
+            <feBlend mode="normal" stream="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+            <desc>type="innerShadow" x="0" y="1" size="0" spread="0" color="1,1,1,0.2"
+                blend="normal"
+            </desc>
+            <feColorMatrix stream="SourceAlpha" type="matrix"
+                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 0" result="hardAlpha" />
+            <feOffset dx="0" dy="1" />
+            <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+            <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.2 0" />
+            <feBlend mode="normal" in2="shape" result="effect2_innerShadow" />
+            <desc>type="innerShadow" x="0" y="-1" size="0" spread="0"
+                color="0.74902,0.211765,0.0470588,0.2" blend="normal"
+            </desc>
+            <feColorMatrix stream="SourceAlpha" type="matrix"
+                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 0" result="hardAlpha" />
+            <feOffset dx="0" dy="-1" />
+            <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+            <feColorMatrix type="matrix"
+                values="0 0 0 0 0.74902 0 0 0 0 0.211765 0 0 0 0 0.0470588 0 0 0 0.2 0" />
+            <feBlend mode="normal" in2="effect2_innerShadow" result="effect3_innerShadow" />
+        </filter>
+        <filter id="filter1_d" filterUnits="userSpaceOnUse" x="7" y="-185" width="173" height="172"
+            color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <desc>type="dropShadow" x="0" y="4" size="4" spread="0"
+                color="0.74902,0.211765,0.0470588,0.2" blend="normal"
+            </desc>
+            <feColorMatrix stream="SourceAlpha" type="matrix"
+                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 0" />
+            <feOffset dx="0" dy="4" />
+            <feGaussianBlur stdDeviation="2" />
+            <feColorMatrix type="matrix"
+                values="0 0 0 0 0.74902 0 0 0 0 0.211765 0 0 0 0 0.0470588 0 0 0 0.2 0" />
+            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow" />
+            <feBlend mode="normal" stream="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+        </filter>
+        <linearGradient id="paint5_linear" x1="0" y1="0" x2="1" y2="0"
+            gradientUnits="userSpaceOnUse"
+            gradientTransform="matrix(100.788 -0.77778 1.17613 101.842 5.12077 5.8569)">
+            <stop offset="0" />
+            <stop offset="1" stop-color="#000000" stop-opacity="0" />
+        </linearGradient>
+        <radialGradient id="paint8_radial" cx="0.5" cy="0.5" r="0.5" gradientUnits="userSpaceOnUse"
+            gradientTransform="matrix(352 -9.76996e-14 1.95399e-14 352 -176 -176)">
+            <stop offset="0" stop-color="#FFFFFF" />
+            <stop offset="1" stop-color="#FFFFFF" stop-opacity="0" />
+        </radialGradient>
+        <path id="path0_fill"
+            d="M 176 88C 176 136.601 136.601 176 88 176C 39.3989 176 0 136.601 0 88C 0 39.3989 39.3989 0 88 0C 136.601 0 176 39.3989 176 88Z" />
+        <path id="path1_fill"
+            d="M 62.2254 150.225C 110.826 150.225 150.225 110.826 150.225 62.2254C 150.225 37.9249 140.376 15.9249 124.451 -1.54178e-06L -1.54178e-06 124.451C 15.9249 140.376 37.9249 150.225 62.2254 150.225Z" />
+        <path id="path2_fill" d="M 0 0L 192 0L 192 1L 0 1L 0 0Z" />
+        <path id="path3_fill"
+            d="M 0 52.1111L 0 73.8889L 21.6471 73.8889L 21.6471 112L 86.7104 112C 98.548 97.0123 105.613 78.0813 105.613 57.5C 105.613 35.5202 97.5552 15.4224 84.2318 0L 32.4706 5.68434e-14L 32.4706 28.7778L 21.6471 28.7778L 21.6471 52.1111L 0 52.1111Z" />
+        <path id="path4_fill"
+            d="M 119.059 62.6111L 119.059 51.7222L 69.5798 51.7222L 69.5798 43.5556L 71.126 43.5556C 76.9652 43.5935 81.9496 38.579 81.9496 32.6667L 81.9496 4.72045e-06L 74.9916 5.24494e-07L 74.9916 24.8335L 67.6471 24.7577L 67.6471 1.57348e-06L 60.6891 1.04899e-06L 60.6891 24.7577L 53.3445 24.8335L 53.3445 0L 46.3866 5.24494e-07L 46.3866 32.6667C 46.3866 38.579 51.371 43.5935 57.2101 43.5556L 58.7563 43.5556L 58.7563 51.7222L 58.7563 62.6111L 58.7563 112L 69.5798 112L 69.5798 62.6111L 119.059 62.6111Z" />
+        <path id="path5_fill"
+            d="M 51.0252 73.6945L 51.0252 51.9167L 43.2941 51.9167L 0 51.9167C 0 63.9423 9.68864 73.6914 21.6414 73.6945L 21.6471 73.6945L 21.6526 73.6945L 51.0252 73.6945Z" />
+    </defs>
+</svg>

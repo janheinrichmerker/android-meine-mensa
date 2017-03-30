@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_item_date"
+        android:title="@string/menu_item_date"
+        android:icon="@drawable/ic_calendar"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menu_item_location"
+        android:title="@string/menu_item_location"
+        android:icon="@drawable/ic_home"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menu_item_location_map"
+        android:title="@string/menu_item_location_map_long"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_item_directions"
+        android:title="@string/menu_item_directions"
+        android:icon="@drawable/ic_directions"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menu_item_price"
+        android:title="@string/menu_item_price"
+        android:icon="@drawable/ic_person"
+        app:showAsAction="never">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/menu_item_price_students"
+                    android:title="@string/menu_item_price_students" />
+                <item
+                    android:id="@+id/menu_item_price_employees"
+                    android:title="@string/menu_item_price_employees" />
+                <item
+                    android:id="@+id/menu_item_price_guests"
+                    android:title="@string/menu_item_price_guests" />
+            </group>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/menu_item_vegetarian_only"
+        android:title="@string/menu_item_vegetarian_only"
+        android:checkable="true"
+        android:checked="false" />
+
+</menu>

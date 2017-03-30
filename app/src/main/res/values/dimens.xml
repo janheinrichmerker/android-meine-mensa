@@ -1,0 +1,30 @@
+<resources>
+    <dimen name="guideline">16dp</dimen>
+    <dimen name="guideline_half">8dp</dimen>
+    <dimen name="guideline_quarter">4dp</dimen>
+    <dimen name="guideline_content">72dp</dimen>
+
+    <dimen name="elevation_toolbar">4dp</dimen>
+    <dimen name="elevation_drawer">16dp</dimen>
+
+    <dimen name="scrim_height">48dp</dimen>
+    <dimen name="indicator_size">24dp</dimen>
+
+    <string name="aspect_ratio_detail">3:4</string>
+    <string name="aspect_ratio_grid">9:16</string>
+
+    <dimen name="splash_bottom">16dp</dimen>
+    <dimen name="banner_bottom">48dp</dimen>
+
+    <dimen name="md_title_textsize">28sp</dimen>
+    <dimen name="md_content_textsize">20sp</dimen>
+
+    <dimen name="widget_initial_width">250dp</dimen>
+    <dimen name="widget_initial_height">180dp</dimen>
+    <dimen name="widget_min_width">180dp</dimen>
+    <dimen name="widget_min_height">110dp</dimen>
+    <dimen name="widget_elevation">2dp</dimen>
+    <dimen name="widget_toolbar_height">56dp</dimen>
+    <dimen name="widget_item_height">72dp</dimen>
+    <dimen name="widget_image_width">96dp</dimen><!-- 4:3 of @dimen/widget_item_height -->
+</resources>

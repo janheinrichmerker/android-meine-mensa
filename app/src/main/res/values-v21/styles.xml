@@ -1,0 +1,13 @@
+<resources>
+
+    <style name="Theme.App.Translucent">
+        <item name="android:windowTranslucentNavigation">@bool/translucent_navigation_bar</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
+
+    <style name="Theme.App.Splash">
+        <item name="android:windowBackground">@drawable/splash</item>
+    </style>
+
+</resources>

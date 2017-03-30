@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="splash_bottom">72dp</dimen>
+    <dimen name="banner_bottom">96dp</dimen>
+</resources>

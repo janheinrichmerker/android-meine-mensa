@@ -1,0 +1,39 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    ext {
+        android_plugin_version = "2.2.0"
+        kotlin_version = "1.0.4"
+        realm_version = "1.2.0"
+        android_support_version = "25.3.0"
+        play_services_version = "10.2.1"
+
+        version_major = 1
+        version_minor = 0
+        version_patch = 5
+        version_build = 0 // bump for dogfood builds, public betas, etc.
+    }
+
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.3.0'
+        classpath "io.realm:realm-gradle-plugin:$realm_version"
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+        mavenCentral()
+        maven { url "https://jitpack.io" }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

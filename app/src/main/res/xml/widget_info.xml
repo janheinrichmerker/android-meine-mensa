@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:initialLayout="@layout/widget_menu"
+    android:resizeMode="horizontal|vertical"
+    android:minHeight="@dimen/widget_initial_height"
+    android:minWidth="@dimen/widget_initial_width"
+    android:minResizeHeight="@dimen/widget_min_height"
+    android:minResizeWidth="@dimen/widget_min_width"
+    android:widgetCategory="keyguard|home_screen"
+    tools:ignore="UnusedAttribute" />
