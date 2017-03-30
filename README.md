@@ -2,7 +2,7 @@
 
 # android-meine-mensa
 
-[![Build Status](https://travis-ci.com/heinrichreimer/android-meine-mensa.svg?token=gENHP9snyyiumANuhhuX&branch=master)](https://travis-ci.com/heinrichreimer/android-meine-mensa)
+[![Build Status](https://travis-ci.org/heinrichreimer/android-meine-mensa.svg?branch=master)](https://travis-ci.org/heinrichreimer/android-meine-mensa)
 
 _Deine Mensen des Studentenwerks Halle._
 
@@ -43,6 +43,6 @@ _Für alle Mensen des Studentenwerks Halle in: Halle, Dessau-Roßlau, Merseburg,
 Öffne einfach ein neues Issue auf GitHub oder erstelle einen Pull Request (deutsch oder englisch)!
 Bei Pull Requests muss immer die Contributor License Agreement bestätigt werden.
 
-#### Tips
+#### Tips:
 
 - Die Whitelist/Blacklist der vegetarischen Gerichte findest Du [hier](https://github.com/heinrichreimer/android-meine-mensa/blob/master/app/src/main/java/com/heinrichreimer/meinemensa/parse/MenuParser.java#L54).
