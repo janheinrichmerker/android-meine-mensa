@@ -3,16 +3,23 @@ apply plugin: "realm-android"
 apply plugin: "jacoco-android"
 
 android {
+
     compileSdkVersion 25
     buildToolsVersion '25.0.2'
     defaultConfig {
+
         applicationId "com.heinrichreimer.meinemensa"
         minSdkVersion 15
         targetSdkVersion 25
         versionCode version_major * 10000 + version_minor * 1000 + version_patch * 100 + version_build
         versionName "$version_major.$version_minor" + (version_patch == 0 ? "" : ".$version_patch")
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+        lintOptions {
+            abortOnError false
+        }
     }
+
     buildTypes {
         release {
             minifyEnabled true
@@ -30,13 +37,16 @@ android {
             proguardFile "proguard-support-design.pro"
             proguardFile "proguard-support-v7-appcompat.pro"
         }
+
         debug {
             versionNameSuffix " DEBUG"
         }
     }
+
     dataBinding {
         enabled true
     }
+
     sourceSets {
         main.java.srcDirs += "src/main/kotlin"
     }
