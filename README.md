@@ -35,3 +35,12 @@ Du weißt nicht, ob du noch genug Geld auf deinem Studentenausweis hast? Halte e
 - Heidemensa
 
 _Für alle Mensen des Studentenwerks Halle in: Halle, Dessau-Roßlau, Merseburg, Köthen, Bernburg_
+
+## Mitmachen
+
+Öffne einfach ein neues Issue auf GitHub oder erstelle einen Pull Request (deutsch oder englisch)!
+Bei Pull Requests muss immer die Contributor License Agreement bestätigt werden.
+
+#### Tips
+
+- Die Whitelist/Blacklist der vegetarischen Gerichte findest Du [hier](https://github.com/heinrichreimer/android-meine-mensa/blob/master/app/src/main/java/com/heinrichreimer/meinemensa/parse/MenuParser.java#L54).
