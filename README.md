@@ -2,6 +2,8 @@
 
 # android-meine-mensa
 
+[![Build Status](https://travis-ci.com/heinrichreimer/android-meine-mensa.svg?token=gENHP9snyyiumANuhhuX&branch=master)](https://travis-ci.com/heinrichreimer/android-meine-mensa)
+
 _Deine Mensen des Studentenwerks Halle._
 
 **_Hungrig?_**
