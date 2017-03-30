@@ -14,24 +14,24 @@ Du weißt nicht, ob du noch genug Geld auf deinem Studentenausweis hast? Halte e
 
 **Funktionen**:
 
-- Offline-Synchronisation
-- Preiskategorie und Mensa wählbar
-- Homescreen-Widget
-- Übersichtskarte mit allen Mensen
-- Guthaben abrufen
+- Offline-Synchronisation
+- Preiskategorie und Mensa wählbar
+- Homescreen-Widget
+- Übersichtskarte mit allen Mensen
+- Guthaben abrufen
 
 **Unterstützte Mensen**:
 
-- Harzmensa
-- Weinbergmensa
-- Mensa Köthen
-- Mensa Bernburg
-- Mensa Neuwerk
-- Mensa Tulpe
-- Mensa Burg
-- Mensa Dessau
-- Mensa Franckesche Stiftungen
-- Mensa Merseburg
-- Heidemensa
+- Harzmensa
+- Weinbergmensa
+- Mensa Köthen
+- Mensa Bernburg
+- Mensa Neuwerk
+- Mensa Tulpe
+- Mensa Burg
+- Mensa Dessau
+- Mensa Franckesche Stiftungen
+- Mensa Merseburg
+- Heidemensa
 
 _Für alle Mensen des Studentenwerks Halle in: Halle, Dessau-Roßlau, Merseburg, Köthen, Bernburg_
