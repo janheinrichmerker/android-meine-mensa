@@ -62,7 +62,8 @@ public class MenuParser {
     private static final String[] VEGETARIAN_WHITE_LIST = {
             "vegetarisch",
             "vegan",
-            "soja"
+            "soja",
+            "veggie"
     };
     private static final String[] VEGETARIAN_BLACK_LIST = {
             "fleisch",
