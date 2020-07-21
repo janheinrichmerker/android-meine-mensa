@@ -1,4 +1,4 @@
-[![Icon](https://s24.postimg.org/ejman5nhh/ic_launcher.png)](https://postimg.org/image/u53m73zfl/)
+![Icon](app/src/main/res/mipmap-xxxhdpi/ic_launcher.png)
 
 # android-meine-mensa
 
